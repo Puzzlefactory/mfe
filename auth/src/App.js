@@ -9,6 +9,7 @@ const generateClassName = createGenerateClassName({
   productionPrefix: 'au',
 });
 
+// Auth component
 export default ({history}) => {
   return <div>
     <StylesProvider generateClassName={generateClassName}>
